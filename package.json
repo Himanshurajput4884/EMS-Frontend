@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://employee-management-backend-tau.vercel.app/",
+  "proxy": "https://ems-backend-duin.onrender.com/",
   "engines": {
     "node": "18.x"
   },
