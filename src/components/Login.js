@@ -36,7 +36,7 @@ const Login = () => {
         username: LoginForm.username,
         password: LoginForm.password,
     }
-    const data = await fetch(`http://localhost:8009/login`,{
+    const data = await fetch(`${URL}login`,{
       method:"POST",
       headers:{
           "Content-Type":"application/json"
@@ -77,7 +77,7 @@ const Login = () => {
       password:RegisterForm.password,
     }
 
-    const data = await fetch(`http://localhost:8009/signup`,{
+    const data = await fetch(`${URL}signup`,{
       method:"POST",
       headers:{
           "Content-Type":"application/json"

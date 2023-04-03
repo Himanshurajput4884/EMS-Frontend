@@ -28,7 +28,7 @@ const Header = () => {
     const logoutuser = async () => {
         let token = localStorage.getItem("usersdatatoken");
 
-        const res = await fetch(`http://localhost:8009/logout`, {
+        const res = await fetch(`${URL}logout`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

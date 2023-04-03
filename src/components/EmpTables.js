@@ -32,7 +32,7 @@ function EmpTables() {
 
   useEffect(() => {
     const fetch_data = async () => {
-      const data = await fetch(`http://localhost:8009/get/emp`, {
+      const data = await fetch(`${URL}get/emp`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

@@ -48,7 +48,7 @@ const AddEmployee = () => {
       };
       console.log(formdata);
 
-      const data = await fetch(`http://localhost:8009/new/emp`, {
+      const data = await fetch(`${URL}new/emp`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -26,7 +26,7 @@ const Update = () => {
   
   useEffect(()=>{
     const fetchData=async ()=>{
-        const data = await fetch(`http://localhost:8009/get/${id}`, {
+        const data = await fetch(`${URL}get/${id}`, {
             method:"GET",
             headers:{
                 "Content-Type":"application/json",
@@ -84,7 +84,7 @@ const Update = () => {
       };
       console.log(formdata);
 
-      const data = await fetch(`http://localhost:8009/update/${id}`, {
+      const data = await fetch(`${URL}update/${id}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
