@@ -11,7 +11,7 @@ import AddEmployee from "./components/AddEmployee";
 import Sidebar from "./components/Sidebar";
 import Dashboard from "./components/Dashboard";
 import Update from "./components/Update";
-const URL="https://employee-management-backend-p3qb.vercel.app/";
+const URL="https://employee-management-backend-tau.vercel.app/";
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
 
   useEffect(()=>{
     const fetch_employee = async ()=>{
-        const data = await fetch(`http://localhost:8009/get/emp`, {
+        const data = await fetch(`${URL}get/emp`, {
             method: "GET",
             headers: {
               "Content-Type": "application/json",
@@ -46,7 +46,7 @@ function App() {
   const DashboardValid = async () => {
     let token = localStorage.getItem("usersdatatoken");
 
-    const res = await fetch(`http://localhost:8009/validuser`, {
+    const res = await fetch(`${URL}validuser`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
