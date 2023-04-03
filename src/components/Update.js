@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink, useNavigate, useParams } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "./mix.css";
-const URL="https://employee-management-backend-tau.vercel.app/";
+const URL="https://ems-backend-duin.onrender.com/";
 
 
 const Update = () => {

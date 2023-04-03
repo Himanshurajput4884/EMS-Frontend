@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./empTable.css";
 import TableRow from "./TableRow";
-const URL="https://employee-management-backend-tau.vercel.app/";
+const URL="https://ems-backend-duin.onrender.com/";
 
 
 function EmpTables() {

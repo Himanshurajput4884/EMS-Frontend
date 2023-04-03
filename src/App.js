@@ -11,7 +11,7 @@ import AddEmployee from "./components/AddEmployee";
 import Sidebar from "./components/Sidebar";
 import Dashboard from "./components/Dashboard";
 import Update from "./components/Update";
-const URL="https://employee-management-backend-tau.vercel.app/";
+const URL="https://ems-backend-duin.onrender.com/";
 
 
 function App() {

@@ -6,7 +6,7 @@ import React, { useEffect, useState, useContext } from "react";
 import { LoginContext } from "./ContextProvider/Context";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
-const URL="https://employee-management-backend-tau.vercel.app/";
+const URL="https://ems-backend-duin.onrender.com/";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
